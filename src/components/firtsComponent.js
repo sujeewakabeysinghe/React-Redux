@@ -1,6 +1,9 @@
-import React, { Component } from 'react'  //rce
- 
-export class firtsComponent extends Component {
+import React, { Component } from 'react';  //rce - Class  rfce - funtional
+import ActionOne from '../actions/actionOne';
+import { bindActionCreators } from 'redux'; 
+import { connect } from 'react-redux';
+
+class firtsComponent extends Component {
     render() {
         return (
             <div>
